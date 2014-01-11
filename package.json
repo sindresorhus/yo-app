@@ -1,0 +1,39 @@
+{
+  "name": "yo-app",
+  "version": "0.0.0",
+  "description": "Experimental yo app (OS X)",
+  "license": "MIT",
+  "repository": "sindresorhus/yo-app",
+  "main": "index.html",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "yeoman",
+    "yo",
+    "scaffolding",
+    "generator",
+    "app",
+    "ui",
+    "osx",
+    "max"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "underscore.string": "~2.3.3",
+    "finder-path": "~0.1.0",
+    "strip-ansi": "~0.1.1",
+    "lodash": "~2.4.1",
+    "witwip": "~1.0.2"
+  },
+  "private": "true",
+  "window": {
+    "title": "yo",
+    "show": true
+  }
+}
