@@ -1,6 +1,8 @@
 # yo-app
 
-> Experimental [yo](https://github.com/yeoman/yo) app *(OS X)*
+**Deprecated**
+
+> [yo](https://github.com/yeoman/yo) app *(OS X)*
 
 ![](screenshot.png)
 
