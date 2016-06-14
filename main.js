@@ -10,15 +10,12 @@ var finderPath = require('finder-path');
 
 var TRAY_UPDATE_INTERVAL = 2000;
 
-
-
 function log(str) {
 	document.body.textContent = document.body.textContent + stripAnsi(str) + '\n';
 }
 
 process.stdout.write = log;
 process.stderr.write = log;
-
 
 function Adapter() {};
 
@@ -28,8 +25,6 @@ Adapter.prototype.prompt = function () {
 };
 
 Adapter.prototype.log = function () {};
-
-
 
 var env = yeoman(null, null, new Adapter());
 env.alias(/^([^:]+)$/, '$1:all');
@@ -41,7 +36,6 @@ var generators = _.unique(env.namespaces().filter(function (el) {
 }).map(function (el) {
 	return el.replace(/(\w+):\w+/, '$1');
 }));
-
 
 function createTrayMenu(name, generators, status) {
 	var menu = new gui.Menu();
@@ -119,6 +113,3 @@ menu.append(new gui.MenuItem({
 
 tray.menu = menu;
 updateTray();
-
-
-//win.showDevTools();

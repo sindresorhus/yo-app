@@ -1,6 +1,8 @@
-# yo-app
+# Deprecated in favor of [yeoman-app](https://github.com/yeoman/yeoman-app)
 
-**Deprecated in favor of [yeoman-app](https://github.com/yeoman/yeoman-app)** 
+---
+
+# yo-app
 
 > [yo](https://github.com/yeoman/yo) app *(macOS)*
 
@@ -23,4 +25,4 @@
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
