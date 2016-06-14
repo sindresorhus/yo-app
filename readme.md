@@ -2,7 +2,7 @@
 
 **Deprecated in favor of [yeoman-app](https://github.com/yeoman/yeoman-app)** 
 
-> [yo](https://github.com/yeoman/yo) app *(OS X)*
+> [yo](https://github.com/yeoman/yo) app *(macOS)*
 
 ![](screenshot.png)
 

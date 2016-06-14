@@ -1,7 +1,7 @@
 {
   "name": "yo-app",
   "version": "0.0.0",
-  "description": "Experimental yo app (OS X)",
+  "description": "yo app",
   "license": "MIT",
   "repository": "sindresorhus/yo-app",
   "main": "index.html",
@@ -20,8 +20,8 @@
     "generator",
     "app",
     "ui",
-    "osx",
-    "max"
+    "macos",
+    "osx"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
